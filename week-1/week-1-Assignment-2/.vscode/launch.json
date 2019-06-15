@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - QuestionFour",
+            "request": "launch",
+            "mainClass": "QuestionFour",
+            "projectName": "week-1-Assignment-2_cb45fdbc"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - QuestionThree",
+            "request": "launch",
+            "mainClass": "QuestionThree",
+            "projectName": "week-1-Assignment-2_cb45fdbc"
+        }
+    ]
+}
