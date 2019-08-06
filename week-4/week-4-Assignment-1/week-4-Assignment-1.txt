@@ -1,0 +1,58 @@
+s part of this week's assignment, you're supposed to build a restaurant application over the course of 3 assignments which has the following
+- A Dishes class showing the list of dishes
+- A orders class showing the list of orders
+- A vegtype class (for declaring dishtype ENUM)
+- A Restaurant Class
+- A ExceptionHandling class
+
+
+Kindly use Scanner class for accepting user inputs, Generics, Exception handling, Iterator 
+The package structure should be as below 
+
+        com.week4.restaurant.model 
+                Order.java 
+                Dish.java 
+                VegType.java
+        com.week4.restaurant.controller
+                Restaurant.java
+        com.greatlearning.fsd.module4.exceptions
+                InvalidAmountException.java 
+
+1. Create a list of Dishes and store it in a ArrayList. Then write Lamdbas
+    expressions to sort the dishes based on below criterias 
+
+    a. Sort the dishes in the increasing order of calories 
+    b. Sort the dishes in the decreasing order of calories
+    c. Sort the dishes in the increasing order of price 
+    d. Sort the dishes in the decreasing order of price 
+
+    The Dish class should have 
+        id (int)
+        name, 
+        dishType (can be either Veg or Non_Veg using ENUM)
+        calories (double)
+        price (double)
+
+    Also override equals, hashcode, toString methods 
+
+2. After creating the above use case, in the main method, provide options for the
+   user to select from using Scanner class. The output should be in the below format 
+
+   =================Welcome=====================
+   Please choose from the below options 
+
+   1 => To sort the dishes in the increasing order of calories
+   2 => To sort the dishes in the decreasing order of calories
+   3 => To sort the dishes in the increasing order of price
+   4 => To sort the dishes in the decreasing order of price 
+   ===============================================
+
+
+   The screen should wait for the user input and based on the option 
+   provided, it should display the dishes in the correct order based on
+   the option provided 
+
+   hint: Implement Comparable interface
+
+Submission format:
+- Zip file with the name "Week 4 Assignment 1.zip" which contains the package structure as described earlier

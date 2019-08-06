@@ -1,0 +1,74 @@
+As part of this week's assignment, you're supposed to build a restaurant application over the course of 3 assignments which has the following
+- A Dishes class showing the list of dishes
+- A orders class showing the list of orders
+- A vegtype class (for declaring dishtype ENUM)
+- A Restaurant Class
+- A ExceptionHandling class
+
+
+Kindly use Scanner class for accepting user inputs, Generics, Exception handling, Iterator 
+The package structure should be as below 
+
+        com.week4.restaurant.model 
+                Order.java 
+                Dish.java 
+                VegType.java
+        com.week4.restaurant.controller
+                Restaurant.java
+        com.greatlearning.fsd.module4.exceptions
+                InvalidAmountException.java 
+
+1. Create a Restaurant class with a main method. Once the option is selected from
+   the above, display the dishes and ask the user to select the dish Id to order
+
+    Create a class named InvalidAmountException which is a Unchecked exception.
+   =================Please select the Dish Id and hit enter===============================
+    Dish Id:5, name: Neer-Dosa, Price: 50.00  Calories: 100
+    Dish Id:2, name: Idli-Vada, Price: 40.00  Calories: 200
+    Dish Id:4, name: Roti-Curry, Price: 100.00  Calories: 250
+    Dish Id:1, name: Dosa, Price: 50.00  Calories: 300
+    Dish Id:3, name: Pulav, Price: 80.00  Calories: 330
+   ============================================================
+    4 (Assume user entered 4)
+    output: 
+    ==========You have selected Roti-Curry =====================
+      Please enter your name: 
+    (wait for user input) 
+      
+    Please pay the bill of Rs 100.00 (wait for user input)
+
+Case -1 
+    200 (Assume user entered 200)
+
+    Output:
+    ========Thanks for your order. Please collect the change = Rs 100 ================
+
+Case 2
+
+    100 (Assume user entered 100)
+
+    Output:
+    ========Thanks for your order. ================
+
+Case 3
+
+    50 (Assume user entered 50)
+        throw an instance of InvalidAmountException with the message - Amount paid is less than bill amount.
+
+    Output:
+    ========Amount paid is less than Bill Amount ================
+
+For the question above, please use Scanner class for accepting user inputs, Generics, Exception handling, Iterator 
+The package structure should be as below 
+
+        com.greatlearning.fsd.module4.model 
+                Order.java 
+                Dish.java 
+                VegType.java
+        com.greatlearning.fsd.module4.controller
+                Restaurant.java
+        com.greatlearning.fsd.module4.exceptions
+                InvalidAmountException.java 
+
+Submission format:
+- Zip file with the name "Week 4 Assignment 2.zip" which contains the package structure as described earlier
