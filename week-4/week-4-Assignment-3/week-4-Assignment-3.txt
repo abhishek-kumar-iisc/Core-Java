@@ -1,0 +1,49 @@
+As part of this week's assignment, you're supposed to build a restaurant application over the course of 3 assignments which has the following
+- A Dishes class showing the list of dishes
+- A orders class showing the list of orders
+- A vegtype class (for declaring dishtype ENUM)
+- A Restaurant Class
+- A ExceptionHandling class
+
+
+Kindly use Scanner class for accepting user inputs, Generics, Exception handling, Iterator 
+The package structure should be as below 
+
+        com.week4.restaurant.model 
+                Order.java 
+                Dish.java 
+                VegType.java
+        com.week4.restaurant.controller
+                Restaurant.java
+        com.greatlearning.fsd.module4.exceptions
+                InvalidAmountException.java 
+
+1. After the order is generated, store all the Order in a HashSet
+    Fields for Order class 
+        orderId: int (should be auto increment. default 1)
+        dish : Dish object 
+        customerName: String 
+
+    Override equals, hashCode, toString, compareTo (from Comparable interface) methods 
+
+    Have an option in the Restaurant class to display all the orders(option 5)
+
+    If the user enters 5, then display all the orders from the HashSet on the screen 
+
+   ====================For Admin=========================
+   5 => to List all the Orders 
+   ======================================================
+ 
+
+    Output:
+    =======================Orders==============================
+    Order Id: 1, Dish: Dosa, customer Name: Vinay
+    Order Id: 2, Dish: Idli, customer Name: Mahesh
+    Order Id: 3, Dish: Upma, customer Name: Vikram
+    Order Id: 4, Dish: Neer-Dosa, customer Name: Puja
+    Order Id: 5, Dish: Vada-Pav, customer Name: Amar
+    Order Id: 6, Dish: Roti-Curry, customer Name: Anil
+    =============================================================
+
+Submission format:
+- Zip file with the name "Week 4 Assignment 3.zip" which contains the package structure as described earlier

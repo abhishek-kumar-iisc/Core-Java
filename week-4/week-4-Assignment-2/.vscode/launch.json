@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Restaurant",
+            "request": "launch",
+            "mainClass": "Restaurant"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Resturant",
+            "request": "launch",
+            "mainClass": "Resturant"
+        }
+    ]
+}
