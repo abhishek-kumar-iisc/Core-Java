@@ -1,0 +1,10 @@
+package com.greatlearning.twitter.client;
+
+import com.greatlearning.twitter.model.Tweet;
+import com.greatlearning.twitter.model.User;
+
+import java.util.*;
+
+public class Client {
+
+}

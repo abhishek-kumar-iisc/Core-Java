@@ -1,0 +1,5 @@
+package com.greatlearning.twitter.service;
+
+public class UserServiceImpl {
+
+}
