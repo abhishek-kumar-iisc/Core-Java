@@ -1,0 +1,31 @@
+Building the Twitter Back-end
+
+Set up the Maven project with Spring dependencies with 
+Spring Data JPA, 
+User and Tweet Entities
+Relation with User and Tweet
+ 
+
+Develop the Controller, Service, Model and DAO layer configured with MySQL database
+Set up the relationship between User and Tweet
+ 
+
+In the Service layer, expose the methods to add tweet, view tweets by userId, 
+In the Controller layer, expose method to add a new tweet, view all the tweets for a given user id
+Write a Client with the main method with the following methods
+Post a new tweet:
+Accept the user Id and the tweet message to be posted
+View all the tweets
+Accept the user Id and display all the tweets.
+P.S: Methods mentioned above are just for reference. Kindly refer to the Twitter mockups to figure out all the necessary methods of the application
+packages:
+com.glearning.twitterapp.client
+com.glearning.twiterapp.conroller
+com.glearning.twitterapp.service
+com.glearning.twitterapp.model
+com.glearning.twitterapp.exception
+com.glearning.twitterapp.repository
+Database Schema:
+               user, tweet (Remember how user-follower relationship was captured earlier?)
+Entities:
+                 User, Tweet
