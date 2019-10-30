@@ -1,0 +1,48 @@
+package com.greatlearning.twitter.model;
+
+
+
+import java.io.Serializable;
+import java.util.Date;
+import java.util.HashSet;
+import java.util.Objects;
+import java.util.Set;
+
+public class User implements Comparable<User>, Serializable  {
+	
+	 public enum Role {
+	        REGULAR_USER,
+	        ADMIN
+	}
+    private final long id;
+    private final String userName;
+    private String profileImgUrl;
+    private String coverUrl;
+    private String password;
+    private String firstName;
+    private String lastName;
+    private final Role userRole;
+    private final String email;
+    
+    //Initial Values
+    private static int userIdCount = 100;
+    private final Date createdDt;
+    private Date updatedDt;
+    private Set<Tweet> tweets = new HashSet<>();
+    private Set<User> followers = new HashSet<>();
+    private Set<User> following = new HashSet<>();
+    
+    public User(String userName, String firstName, String lastName, String email){
+        this.id = ++ userIdCount;
+        this.userName = userName;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+        this.userRole = Role.REGULAR_USER;
+        this.createdDt = new Date();
+        this.updatedDt = new Date();
+
+}
+    
+    
+}

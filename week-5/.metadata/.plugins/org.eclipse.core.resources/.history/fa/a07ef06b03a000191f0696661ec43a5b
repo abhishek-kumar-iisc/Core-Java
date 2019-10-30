@@ -1,0 +1,17 @@
+package com.greatlearning.twitter.client;
+
+import com.greatlearning.twitter.model.Tweet;
+import com.greatlearning.twitter.model.User;
+
+import java.util.*;
+
+public class Client {
+	public static void main(String args[]) {
+		 User user1 = userService.createUser( "praveenrk", "Praveen", "Kumar", "praveen@gmail.com");
+	        User user2 = userService.createUser( "mohan_vr", "Mohan", "Krishna", "mohan@gmail.com");
+	        User user3 = userService.createUser( "vinayaka", "Vinayaka", "Sharma", "vinay@outlook.com");
+	        User user4 = userService.createUser( "priyanka_88", "Priyanka", "Patel", "priyanka@outlook.com");
+	User user5 = userService.createUser( "akash_94", "Praveen", "Kumar", "praveen@gmail.com");
+	}
+	
+}

@@ -1,0 +1,5 @@
+package com.greatlearning.twitter.model;
+
+public class User {
+
+}
