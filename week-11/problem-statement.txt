@@ -1,0 +1,23 @@
+Building the Twitter Back-end
+
+Now that we have Implemented the DAO layer and the service layer to handle the below scenarios (just illustrative)
+
+Add Tweet
+View All Tweets
+Follow
+View All followers/following
+ 
+
+Complete all the below scenarios and implement the Service and the DAO layer
+
+View User Profile (GET)
+Update User profile (PUT)
+Add User(POST)
+Unfollow a user (PUT)
+Delete a tweet by Id
+Delete all the tweets
+ 
+
+Write a Client program(with main method) and test all the above features
+
+Deploy the application on tomcat server and ensure the application starts up without any errors.
