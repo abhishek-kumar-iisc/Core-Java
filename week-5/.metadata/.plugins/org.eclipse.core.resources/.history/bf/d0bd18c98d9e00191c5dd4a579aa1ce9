@@ -1,0 +1,8 @@
+package com.greatlearning.twitter.service;
+
+import com.greatlearning.twitter.model.Tweet;
+import com.greatlearning.twitter.model.User;
+
+public interface UserService {
+
+}
